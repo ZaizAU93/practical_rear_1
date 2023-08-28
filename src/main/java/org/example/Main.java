@@ -6,7 +6,7 @@ public class Main {
 
         int age = 29;
 
-        System.out.println("Зайцев Андрей"+ age);
+        System.out.println("Зайцев Андрей "+ age);
 
     }
 
