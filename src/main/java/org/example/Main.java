@@ -25,5 +25,9 @@ public class Main {
         practical_real_5 Prac5 = new practical_real_5(25, 6);
         System.out.print("Результат деления натуральных чисел ");
         Prac5.division();
+
+        practical_real_6 Prac6 = new practical_real_6(12,26);
+        Prac6.castling();
+        Prac6.castling_1();
     }
 }
