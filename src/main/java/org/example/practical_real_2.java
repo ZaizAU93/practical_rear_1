@@ -9,8 +9,6 @@ public class practical_real_2 {
         n = x;
     }
     public int colcul(int n){
-        int dozen;
-        int remainder;
         int buf;
         buf = n%10+n/10;
         return buf;
