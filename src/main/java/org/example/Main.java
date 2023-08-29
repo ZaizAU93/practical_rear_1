@@ -18,5 +18,8 @@ public class Main {
 
         practical_real_3 Prac3 = new practical_real_3(153);
         System.out.println("сумму цифр трехзначного числа " + Prac3.n + " = "+Prac3.colcul(153));
+
+        practical_real_4 Prac4 = new practical_real_4(4.33);
+        System.out.println("результат округления " + Prac4.n + " = "+Prac4.rounding());
     }
 }
