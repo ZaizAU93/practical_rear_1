@@ -21,5 +21,9 @@ public class Main {
 
         practical_real_4 Prac4 = new practical_real_4(4.33);
         System.out.println("результат округления " + Prac4.n + " = "+Prac4.rounding());
+
+        practical_real_5 Prac5 = new practical_real_5(25, 6);
+        System.out.print("Результат деления натуральных чисел ");
+        Prac5.division();
     }
 }
