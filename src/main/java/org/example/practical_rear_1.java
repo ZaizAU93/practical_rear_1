@@ -8,7 +8,6 @@ public class practical_rear_1 {
 
     public double calcul (int b, int c) {
         double a = 4 * (b + c - 1) / 2;
-        System.out.println(a);
         return a;
     }
 }
