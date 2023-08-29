@@ -5,10 +5,10 @@ package org.example;
 public class practical_real_3 {
     int n;
 
-    public practical_real_3(int x){
-        n = x;
+    public practical_real_3(int n){
+        this.n = n;
     }
-    public int colcul(int n){
+    public int colcul(){
         int hundred = n/100;
         int remainder = n%100;
         //practical_real_2 Biweekly_number = new practical_real_2(remainder);
