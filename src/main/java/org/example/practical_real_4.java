@@ -16,4 +16,14 @@ public class practical_real_4 {
         int x = (int) Math.round(this.n);
         return x;
     }
+    public  int rounding_1() {
+        int roundedNumber;
+        if (n >= 0) {
+            roundedNumber = (int) (n + 0.5);
+        } else {
+            roundedNumber = (int) (n - 0.5);
+        }
+        return roundedNumber;
+    }
+
 }
