@@ -8,7 +8,10 @@ public class Main {
 
         System.out.println("Зайцев Андрей "+ age);
 
+        // Первое домашнее задание
+        practical_rear_1 Prac = new practical_rear_1();
+
+        System.out.println("Результат выражения 4 * (b + c - 1) / 2 = " +Prac.calcul(10,2));
+
     }
-
-
 }
